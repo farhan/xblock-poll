@@ -174,7 +174,7 @@ setup(
     ],
     entry_points={
         'xblock.v1': [
-            'poll_xblock = poll_xblock:PollXBlock',
+            'poll_xblock = poll_xblock.poll_xblock:PollXBlock',
         ]
     },
     package_data=package_data("poll_xblock", ["static", "public"]),
