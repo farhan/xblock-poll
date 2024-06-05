@@ -364,12 +364,13 @@ class PollXBlock(
             ("PollXBlock",
              """<poll_xblock/>
              """),
-            ("Multiple PollXBlock",
-             """<vertical_demo>
-                <poll_xblock>
-                </poll_xblock>
-                <poll_xblock/>
-                <poll_xblock/>
-                </vertical_demo>
+            ("Customized PollXBlock",
+             """
+              <poll_xblock display_name="Poll Question">
+                  <p>What is your favourite city</p>
+                  <answer id="1">Lahore</answer>
+                  <answer id="2">New York</answer>
+                  <answer id="3">Karachi</answer>
+              </poll_xblock>
              """),
         ]
